@@ -191,12 +191,12 @@ public:
     // Mutator version is first, then accessor version.
     iterator end()
     {
-        return iterator(tail);
+        return iterator(tail->prev);
     }
 
     const_iterator end() const
     {
-        return const_iterator(tail);
+        return const_iterator(tail->prev);
     }
 
     // Return number of elements currently in the list.
@@ -231,7 +231,7 @@ public:
     //Returns the value stored in the last element of the list
     const Object& back() const
     {
-        return *--end();
+        return *end();
     }
 
     //Inserts an object at the front of the list
@@ -243,7 +243,7 @@ public:
     //Inserts an object at the back of the list
     void push_back(const Object& x)
     {
-        insert(end(), x);
+        insert(++end(), x);
     }
 
     //Removes the first element in the list
@@ -255,7 +255,7 @@ public:
     //Removes the last element in the list
     void pop_back()
     {
-        remove(--end());
+        remove(end());
     }
 
     // Insert x before itr.

@@ -169,7 +169,7 @@ int main()
     cout << "is empty: " << queue.isEmpty() << endl;
     recordStatus(queue.isEmpty(), &successes);
 
-    cout << "Passing Tests: " << successes << " out of 16" << endl;
+    cout << "Passing Tests: " << successes << " out of 15" << endl;
 
     return 0;
 }

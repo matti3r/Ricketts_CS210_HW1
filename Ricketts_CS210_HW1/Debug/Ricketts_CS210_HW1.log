@@ -1,0 +1,4 @@
+﻿  Tester.cpp
+C:\Users\mattr\Desktop\Drive\2022_Spring\CS210\HW\HW1\Ricketts_CS210_HW1\Ricketts_CS210_HW1\Stack.h(22): warning C4172: returning address of local variable or temporary: retVal
+C:\Users\mattr\Desktop\Drive\2022_Spring\CS210\HW\HW1\Ricketts_CS210_HW1\Ricketts_CS210_HW1\Queue.h(22): warning C4172: returning address of local variable or temporary: retVal
+  Ricketts_CS210_HW1.vcxproj -> C:\Users\mattr\Desktop\Drive\2022_Spring\CS210\HW\HW1\Ricketts_CS210_HW1\Debug\Ricketts_CS210_HW1.exe
